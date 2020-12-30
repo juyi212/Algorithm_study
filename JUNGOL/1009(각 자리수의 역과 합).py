@@ -20,7 +20,7 @@ while 1:
         print(total)
 
         # while True:
-        #     num = (num*10) + (nn % 10) # 반대로 reverse 하는거 
+        #     num = (num*10) + (nn % 10) # 반대로 reverse 하는거
         #     total += nn%10
         #     nn = nn//10
         #     if nn == 0:

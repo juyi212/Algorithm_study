@@ -21,3 +21,8 @@ if total:
     print(min(total))
 else:
     print('-1')
+
+
+
+
+

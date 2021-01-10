@@ -1,6 +1,7 @@
 n=int(input()) #참외갯수
 
 distance=[list(map(int,input().split()))[1] for _ in range(6)]
+print(distance)
 max_a=distance.index(max(distance))
 max_b=distance.index(max(distance[max_a-1],distance[(max_a+1)%6]))
 min_a=(max_a+3)%6

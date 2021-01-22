@@ -12,7 +12,7 @@ def bfs(i, j, h):
         i, j = q.popleft()
         for x, y in ([-1, 0], [1, 0], [0, 1], [0, -1]):
             nx, ny = i+x, j+y
-            if 0 <= nx < n and 0 <= ny < m and swimming[nx][ny] != 0:   
+            if 0 <= nx < n and 0 <= ny < m and swimming[nx][ny] != 0:
                 if not visited[nx][ny] and swimming[nx][ny] < h:
                     visited[nx][ny] = True
                     q.append([nx, ny])

@@ -1,0 +1,5 @@
+st = list(map(int, input().rstrip()))
+st.sort(reverse=True)
+st = list(map(str, st))
+st = ''.join(st)
+print(st)

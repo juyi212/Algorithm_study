@@ -8,7 +8,7 @@ def check(x, y):
 
 def check2(x, y):
     while y != 0:
-        r = x% y
+        r = x % y
         x = y
         y = r
 

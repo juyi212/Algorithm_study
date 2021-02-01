@@ -5,6 +5,8 @@ def solution(n, m):
                 ans = i
         return ans
 
+
+
     a = check(n, m)
     b = (n * m) // a
     answer = [a, b]

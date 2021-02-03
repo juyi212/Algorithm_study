@@ -64,3 +64,40 @@ for tc in range(1, int(input())+1):
         result += matrix[vv][0][0]
     print(f'#{tc} {result}')
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c9af3b84-4373-4a15-aba1-a58db04c3cf6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/s_14888(연산자 끼워넣기).py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/s_14889(스타트와 링크).py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/s_2667(단지번호 붙이기).py" beforeDir="false" afterPath="$PROJECT_DIR$/s_2667(단지번호 붙이기).py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/s_14889(스타트와 링크).py" beforeDir="false" afterPath="$PROJECT_DIR$/s_14889(스타트와 링크).py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,7 +28,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../swexpert" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../자료" />
   </component>
   <component name="RunManager" selected="Python.s_14889(스타트와 링크)">
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
@@ -181,10 +179,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1612431549865">
+    <state x="549" y="167" key="FileChooserDialogImpl" timestamp="1612610027457">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612431549865" />
+    <state x="549" y="167" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1612610027457" />
     <state width="1515" height="260" key="GridCell.Tab.0.bottom" timestamp="1612601923179">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -238,17 +236,17 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s_14889(스타트와 링크).py</url>
-          <line>91</line>
+          <line>94</line>
           <option name="timeStamp" value="12" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s_14889(스타트와 링크).py</url>
-          <line>70</line>
+          <line>73</line>
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/s_14889(스타트와 링크).py</url>
-          <line>78</line>
+          <line>81</line>
           <option name="timeStamp" value="14" />
         </line-breakpoint>
       </breakpoints>

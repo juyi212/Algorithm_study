@@ -1,6 +1,5 @@
 import sys
 
-
 # 시간 엄청...걸림
 # 일단 두팀으로 나눠지는 경우의 수를 다 구한다음
 # 한 번 구해지는 즉시 바로 start, link 를 나눠서 계산
@@ -60,6 +59,10 @@ check(0)
 print(min_v)
 
 
+
+
+
+   
 # another method
 # def sol(start, link, s1, s2, i):
 #     # 스타트와 링크를 동시에 처리

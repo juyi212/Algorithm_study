@@ -16,6 +16,7 @@ def bfs(r, c, visited):
                 visited[nr][nc] = True
                 cnt += 1
                 q.append([nr, nc])
+
     return cnt
 
 

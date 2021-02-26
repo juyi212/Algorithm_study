@@ -60,12 +60,19 @@ def dfs(idx, selected):
         answer = min(sum_d, answer)
         return
 
-    # 선택 된 것과 안된 것으로 나눔
+    # 치킨집 m개를 고른다
     check[idx] = True
     dfs(idx+1, selected+1)
     check[idx] = False
     dfs(idx+1, selected)
 
+
+# 치킨 배달 연습
+# 치킨거리는 집을 기준으로 정해지며 각각의 집은 치킨 거리를 가지고 있다.
+
+# 도시에 있는 치킨집 중에서 최대 M개를 고르고 나머지는 모두 폐업
+
+# combinations 함수 쓰면 -> 1,2,3 개 선택되는 치킨집들까지 다 봐야함
 
 N, M = map(int, sys.stdin.readline().split()) # n개의 도시 정보, m 개 고름
 matrix = [list(map(int, input().split())) for _ in range(N)]

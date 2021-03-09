@@ -1,45 +1,28 @@
-# 현재 위치에서 현재 방향을 기준으로 왼쪽 방향부터 차례대로 탐색
-# 네 방향 모두 청소가 이미 되어있거나 벽인 경우 -> 바라보는 방향에서 한칸 후진
-# 뒷쪽방향이 벽이라 후진도 할 수 없는 경우 -> 작동을 멈춘다
+# 0-9 까지 한 장씩 만
+# 숫자 두 개 a, b => a+b =N
 
-import sys
-from collections import deque
+n = int(input())
 
-def bfs(r, c, d):
-    q = deque()
-    q.append((r, c, d))
-    matrix[r][c] = 2
-    cnt = 1
+ans = False
 
-    while q:
-        r, c, d = q.popleft()
-        td = d
-        for i in range(4):
-            # 변수 설정에 유의하자
-            td = (td + 3) % 4
-            nr, nc = r+dr[td], c+dc[td]
-            if 0 <= nr < N and 0 <= nc < M and matrix[nr][nc] == 0:
-                cnt += 1
-                matrix[nr][nc] = 2
-                q.append((nr, nc, td))
-                break
-
-            if i == 3:
-                # 바라보는 방향을 유지한 채로 한 칸 후진을 하고 2번으로 돌아간다.
-                nd = (d + 2) % 4
-                # 잠시 뒤로 가는건 일시적 -!
-                nr, nc = r+dr[nd], c+dc[nd]
-                if matrix[nr][nc] == 1:
-                    return cnt
-                q.append((nr, nc, d))
-
-
-
-
-N, M = map(int, sys.stdin.readline().split())  # 크기
-r, c, d = map(int, sys.stdin.readline().split())  # 청소기가 있는 좌표, 방향
-matrix = [list(map(int, sys.stdin.readline().split())) for _ in range(N)]
-dr = [-1, 0, 1, 0]
-dc = [0, 1, 0, -1]
-
-print(bfs(r, c, d))
+# 100000보다 작은지 큰지 확인 해야함
+for i in range(1, min(100000, n)):
+    # 숫자를 만들고 그냥 더 해버림
+    num = str(i) + str(n-i)
+    li = []
+    Flag = -1
+    # 중복되는 숫자가 있는지 확인 해야함
+    for j in num:
+        if j not in li:
+            li.append(j)
+        else:
+            Flag = 0
+            break
+    if Flag:
+        print(n-i, end= " ")
+        print('+',end =" ")
+        print(i)
+        ans = True
+        break
+if not ans:
+    print(-1)

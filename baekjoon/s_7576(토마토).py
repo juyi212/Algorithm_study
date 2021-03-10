@@ -3,7 +3,7 @@ import copy
 from collections import deque
 
 
-def dfs(first):
+def bfs(first):
     q = deque((first))
     # 상하좌우 보면서 익은 거 체크
     # queue에 넣어주기
@@ -36,4 +36,4 @@ for i in range(N):
             # 처음에 동시에 익은거 찾기
             first.append((i, j, 0))
             visited[i][j] = True
-print(dfs(first))
+print(bfs(first))

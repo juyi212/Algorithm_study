@@ -33,7 +33,7 @@ for tc in range(1, int(input())+1):
 
     for i in range(E):
         s, e, w = map(int, input().split())
-        adj[s][e] = w
+        adj[s-1][e-1] = w
 
     # 시작지점으로 부터 각 노드로 가는데 필요한 비용을 저장하는 배열
     start = 0
